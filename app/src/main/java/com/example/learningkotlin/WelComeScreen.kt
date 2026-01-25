@@ -31,10 +31,11 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.learningkotlin.core.navigation.ROUTE_NAME
 
 @Composable
 fun WelComeScreen(navController: NavController) {
- val context = LocalContext.current
+ var context = LocalContext.current
     Box(
         modifier = Modifier
             .fillMaxSize()
