@@ -22,10 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.learningkotlin.core.navigation.NavigationGraph
-import com.example.learningkotlin.core.navigation.ROUTE_HOME_SCREEN
-import com.example.learningkotlin.home.components.BottomNavigationBar
-import com.example.learningkotlin.home.components.TopAppBar
+import com.example.learningkotlin.navigation.NavigationGraph
+import com.example.learningkotlin.navigation.ROUTE_HOME_SCREEN
+import com.example.learningkotlin.presentation.home.components.BottomNavigationBar
+import com.example.learningkotlin.presentation.home.components.TopAppBar
 
 data class BottomNavigationItem(
     val title: String,
